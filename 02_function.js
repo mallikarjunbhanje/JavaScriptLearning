@@ -21,3 +21,13 @@ swapvalue(100,200);
 swapvalue(2,4);
 swapvalue("Ganesh","arjun");
 swapvalue("you","me");
+
+function multiply(num1,num2){
+    var result= num1*num2
+console.log(result);
+return result;
+
+}
+var multiplyResult = multiply(56,45);
+var finalResult = multiplyResult+200;
+console.log(finalResult);
