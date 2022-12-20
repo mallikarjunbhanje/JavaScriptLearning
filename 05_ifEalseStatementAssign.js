@@ -4,8 +4,8 @@ var voating=function(age){
 if (age<=0 || age>120) {
     console.log(`age is ${age} Invalid data`);
 } else {
-    console.log(`your age is ${age} Invalid Data`);
-    if (age>=18) {
+    console.log(`your age is ${age} valid Data`);
+    if (age>=18 && age<18) {
         console.log(`your age is ${age} you are eligable for voating `);
     } else {
         console.log(`your age is ${age} you are not eligable for voating `);
