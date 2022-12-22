@@ -37,4 +37,4 @@ console.log(country);
 
 //null
 var companyName;
-companyname = null;
+companyName = null;
